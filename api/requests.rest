@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text" : "Get Boost and Corn Flakes"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/64b3cdfe66b2ccc8e6ba0d5b
+
+###
+
+PUT http://localhost:3001/todo/complete/64b3cdc666b2ccc8e6ba0d58
